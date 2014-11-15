@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>
+<!-- Metainfo -->
+<title>Thareef Marzook</title>
+        <meta name="keywords"
+              content="photographer, film-maker, economist, investor, sri lanka, thareef, marzook">
+
+<link href='http://fonts.googleapis.com/css?family=Allerta+Stencil|Anaheim' rel='stylesheet' type='text/css'>
+<!-- Styling -->
+<style type="text/css">
+body {
+	text-align: center;
+	color: #808080;
+	background: url("images/bg.jpg");
+	background-size: tile;
+	font-family: helvetica;
+    }
+h1 { 
+	font-family: 'Allerta Stencil', sans-serif;
+	font-weight: 500;
+	font-size: 3em; 
+	color: rgba(12, 12, 12, 0.75);
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+
+}
+
+ul {
+	padding: 0px;
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.025);
+}
+
+li {
+	display: inline;
+	padding: 15px;
+	font-family: 'Anaheim', sans-serif;
+	font-size: 22px;
+}
+
+a {
+	color: #808080;
+	text-decoration: none; 
+}
+
+a:hover {
+	color: #CC3333;
+	text-shadow: 0px 0px 8px #999999;
+}
+
+img { 
+	margin: 20px 8px 20px 8px;
+	max-width: 400px;
+	}
+
+p {
+	padding: 10px 0px 10px 0px;
+	font-family: 'Anaheim', sans-serif;
+	font-size: 18px;
+	max-width: 800px;
+	margin: 0 auto;
+	
+}
+
+.main {
+	margin: 15px 0px -15px 0px;
+}
+
+.titles {
+	padding: 15px;
+}
+
+.photos {
+	background: rgba(255, 255, 255, 0.25);
+}
+.dslr {
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 500px){
+	.main{
+		max-width: 200px;
+	}
+	h1 {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-weight: 500;
+	font-size: 2em; 
+	color: rgba(12, 12, 12, 0.75);
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+	}
+	li {
+		font-size: 16px;
+		display: block;
+		margin: -5px 0px -5px 0px
+	}
+
+	p {
+		font-size: 16px;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+}
+
+
+</style>
+
+<script language="JavaScript">
+//Script to make buttons work within single page//		
+		function clearElements(class_name, class_number) {
+			var el = document.getElementsByClassName(class_name);
+			el[0].style.display="none";
+			el[1].style.display="none";
+			el[2].style.display="none";
+			el[3].style.display="none";
+			el[class_number].style.display="block";
+		}
+//Script to block images on load//
+		function clearAll(class_name) {
+			var el = document.getElementsByClassName(class_name);
+			el[0].style.display="none";
+			el[1].style.display="none";
+			el[2].style.display="none";
+			el[3].style.display="none";
+			el[count].style.display="none";
+		}
+		
+		
+	</script>
+</head>
+<!-- Content -->
+<body onLoad="clearAll('boxes')">
+	<img class="main" src="images/thareef.png">
+	<h1>THAREEF MARZOOK</h1>
+	<ul class="titles">
+		<li><a href="#" onClick="clearElements('boxes', 0)">About Me</a></li>
+		<li><a href="#" onClick="clearElements('boxes', 1)">Photographer</a></li>
+		<li><a href="#" onClick="clearElements('boxes', 2)">Economist</a></li>
+		<li><a href="#" onClick="clearElements('boxes', 3)"><i>Contact Me</i></a></li>
+	</ul>
+
+<!-- About Me -->
+<div  class="boxes">
+<p> I spend my time split between photography, film-making, economic research and financial analysis, whilst shuffling between Singapore and Sri Lanka. I formally studied mathematics and economics and currently head economics at a leading investment consultancy cum hedge fund in South Asia.</p>
+</div>
+
+
+<!-- Text and images about Photography -->
+<div  class="boxes">
+	<p> I think you can always go back to a good photograph. You can look at it, absorb it, and do this time and time again. Because if framed purposefully it has the power to take you to that frozen slice of time. Photography is food for my soul.</p>
+
+	<ul class ="photos">
+	<li><img class ="dlsr" src="images/p1.jpg"></li>
+	<li><img class ="dlsr" src="images/p2.jpg"></li>
+	</ul>
+
+	<ul class ="photos">
+	<li><img class ="dlsr" src="images/y1.jpg"></li>
+	<li><img class ="dlsr" src="images/y2.jpg"></li>
+	</ul>
+
+	<ul class ="photos">
+	<li><img class="dslr" src="images/b1.jpg"></li>
+	<li><img class="dslr" src="images/b2.jpg"></li>
+	</ul>
+
+	<ul class ="photos">
+	<li><img class="dslr" src="images/g1.jpg"></li>
+	<li><img class="dslr" src="images/g2.jpg"></li>
+	</ul>
+	
+	<ul class ="photos">
+	<li><img class="dslr" src="images/bl1.jpg"></li>
+	<li><img class="dslr" src="images/bl2.jpg"></li>
+	</ul>
+
+	<ul class ="photos">
+	<li><img class="dslr" src="images/r1.jpg"></li>
+	<li><img class="dslr" src="images/r2.jpg"></li>
+	</ul>
+</div>
+
+<!-- Text about Economics -->
+<div  class="boxes">
+<p> Economics was a subject that always intrigued me. After picking up a copy of Muhammad Yunus's book 'Banker to the Poor', I was astonished how one could leverage a cultrual norm in order to empower a community through credit markets. It became apparent to me that economics was essentially social engineering. Even the success's of todays economic policies are hingent upon their ability to affect decisions at the household level. Essentially an economic policy, or pricing strategy seeks to construct an incentive structure to motivate household decisions in accordance to what policy makers, or entreprenurs deem appropriate.</p>
+</div>
+
+<!-- Text about Contact Me -->
+<div class="boxes">
+<ul class="contacts">
+		<li> Mobile +94.773.158.029</li>
+		<li> Skype tmarzook1</li>
+		<li><a href="http://www.thara1.tumblr.com"> Blog thara1.tumblr.com</a></li>
+		<li> Email thareef@icloud.com </li>
+</ul>
+</div>
+</body>
